@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2019.  黄钰朝
+ * Copyright (c) 2019.  黄佳卫
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -56,7 +56,7 @@ public class BaseDaoImpl implements BaseDao {
      * @return java.lang.Object
      * @name executeUpdate
      * @notice none
-     * @author <a href="mailto:kobe524348@gmail.com">黄钰朝</a>
+     * @author <a href="mailto:kobe524348@gmail.com">黄佳卫</a>
      * @date 2019/4/9
      */
     public int executeUpdate(String sql, Object[] params) {
@@ -88,7 +88,7 @@ public class BaseDaoImpl implements BaseDao {
      * @return int 执行sql语句后影响记录的行数
      * @name executeUpdate
      * @notice 必须传入一个SqlMapper的实现类用于映射预编译语句
-     * @author <a href="mailto:kobe524348@gmail.com">黄钰朝</a>
+     * @author <a href="mailto:kobe524348@gmail.com">黄佳卫</a>
      * @date 2019/4/9
      * @see SqlMapper
      */
@@ -142,7 +142,7 @@ public class BaseDaoImpl implements BaseDao {
      * @return int 更新的数据库记录数
      * @name insert
      * @notice none
-     * @author <a href="mailto:kobe524348@gmail.com">黄钰朝</a>
+     * @author <a href="mailto:kobe524348@gmail.com">黄佳卫</a>
      * @date 2019/4/9
      */
     @Override
@@ -177,7 +177,7 @@ public class BaseDaoImpl implements BaseDao {
      * @name update
      * @notice 请注意此方法默认更新该对象中所有不为null的属性到数据库<br>
      * 如果不希望更新某些字段，请将其设置为null
-     * @author <a href="mailto:kobe524348@gmail.com">黄钰朝</a>
+     * @author <a href="mailto:kobe524348@gmail.com">黄佳卫</a>
      * @date 2019/4/10
      */
     @Override
@@ -223,7 +223,7 @@ public class BaseDaoImpl implements BaseDao {
      * @return int
      * @name delete
      * @notice none
-     * @author <a href="mailto:kobe524348@gmail.com">黄钰朝</a>
+     * @author <a href="mailto:kobe524348@gmail.com">黄佳卫</a>
      * @date 2019/4/13
      */
     @Override
